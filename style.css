@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+:root{
+  --beau-blue:hsl(209, 100%, 90%);
+  --blizzard-blue:hsl(193, 100%, 84%);
+  --sky-blue:hsl(214, 98%, 77%);
+  --glaucous:hsl(218, 33%, 58%);
+  --old-lavender:hsl(256, 7%, 39%);
+}
+
+body{
+  background-color: var(--sky-blue);
+
+}
+
+h1{
+  
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+
+h3{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 25px;
+}
+
+.heading{
+  background-color: var(--glaucous);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.button{
+  display: flex;
+  width: 120px;
+  height: 50px;
+  justify-content: space-between;
+  row-gap: 0;
+}
+
+.button button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.button p{
+  background-color: var(--glaucous);
+  border-radius: 25%;
+  margin-block: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
